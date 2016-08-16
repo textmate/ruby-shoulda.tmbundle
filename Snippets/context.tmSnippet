@@ -11,8 +11,7 @@
 	}should "${4:description}" do
 		$0
 	end
-end
-</string>
+end</string>
 	<key>name</key>
 	<string>context block with setup</string>
 	<key>scope</key>
