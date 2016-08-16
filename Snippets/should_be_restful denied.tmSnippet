@@ -4,9 +4,9 @@
 <dict>
 	<key>content</key>
 	<string>should_be_restful do |resource|
-  resource.denied.actions  = :${1:all}
-  resource.denied.flash    = /${2:must be logged in}/i
-  resource.denied.redirect = '${3:login_url}'
+	resource.denied.actions  = :${1:all}
+	resource.denied.flash    = /${2:must be logged in}/i
+	resource.denied.redirect = '${3:login_url}'
 end</string>
 	<key>name</key>
 	<string>should_be_restful denied</string>

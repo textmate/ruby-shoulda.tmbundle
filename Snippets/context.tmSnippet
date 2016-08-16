@@ -4,13 +4,13 @@
 <dict>
 	<key>content</key>
 	<string>context "${1:description}" do
-  ${2:setup do
-    $3
-  end
+	${2:setup do
+		$3
+	end
 
-  }should "${4:description}" do
-    $0
-  end
+	}should "${4:description}" do
+		$0
+	end
 end
 </string>
 	<key>name</key>
